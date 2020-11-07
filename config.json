@@ -1,0 +1,16 @@
+{
+    "subject": "test",
+    "client": "templates",
+    "projectName": "tester",
+
+    "emailRecipients": {
+        "name": "",
+        "email": ""
+    },
+
+    "resourcesIP": "",
+    "resourcesURL": "",
+
+    "mailBot": "",
+    "mailBotPass": ""
+}

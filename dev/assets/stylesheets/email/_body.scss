@@ -1,0 +1,275 @@
+// Defaults
+
+$page-width: 740px;
+$page-width: 1024px;
+
+#outlook a {
+    padding: 0;
+}
+ 
+row{
+    height: 0px;
+}
+
+body {
+    font-family: $font-face-primary;
+    width: 100% !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+.ExternalClass {
+    width: 100%;
+}
+ 
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+}
+ 
+img {
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+    display: block;
+}
+ 
+a img {
+    border: none;
+}
+ 
+table {
+    td {
+        border-collapse: collapse;
+    }
+}
+
+// --------------------------------------------------------------------------------
+
+// Block backgrounds
+
+.background_one {
+    background: #e3e1e8;
+}
+ 
+// --------------------------------------------------------------------------------
+
+// Foundation
+
+.table-body {
+    background: #f4f4f4;
+    padding: 20px 0px;
+    .page {
+        width: 100%;
+        max-width: $page-width;
+        background: #ffffff;
+    }
+    .page-padding {
+        @include padding(20px, 20px, 20px, 20px);
+    }
+    .one-column {
+        .col {
+            padding: 20px;
+            color: #ffffff;
+        }
+    }
+    .two-column {
+        width: 100%;
+        .w280 {
+            width: 100%;
+            max-width: 280px;
+            .col {
+                padding: 20px;
+            }
+        }
+        
+    }
+    .three-column {
+        width: 100%;
+            .w187 {
+                width: 100%;
+                max-width:187px;
+                .col {
+                    padding: 20px;
+                }
+            }
+            .w186 {
+                width: 100%;
+                max-width:186px;
+                .col {
+                    padding: 20px;
+                }
+
+            }
+    }
+    
+}
+
+// --------------------------------------------------------------------------------
+
+// Changeable blocks
+
+.headline {
+    font-family: $font-face-secondary;
+    font-size: 30px;
+    line-height: 33px;
+    color: $font-color-primary;
+}
+
+.subheading {
+    font-family: $font-face-secondary;
+    font-size: 22px;
+    line-height: 23px;
+    color: $font-color-primary;
+}
+
+.body-text {
+    font-family: $font-face-primary;
+    font-size: 15px;
+    line-height: 18px;
+    color: $font-color-primary;
+}
+
+.disclaimer {
+    font-family: $font-face-primary;
+    font-size: 10px;
+    line-height: 15px;
+    color: $font-color-primary;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.tleft {
+    text-align: left;
+}
+
+// --------------------------------------------------------------------------------
+
+// Padding
+
+.pad-ten-top {
+    @include padding(10px, 0px, 0px, 0px);
+}
+.pad-fifteen-top {
+    @include padding(15px, 0px, 0px, 0px);
+}
+.pad-twenty-top {
+    @include padding(20px, 0px, 0px, 0px);
+}
+.pad-twentyfive-top {
+    @include padding(25px, 0px, 0px, 0px);
+}
+.pad-thirty-top {
+    @include padding(30px, 0px, 0px, 0px);
+}
+
+.pad-ten-bottom {
+    @include padding(0px, 0px, 10px, 0px);
+}
+.pad-fifteen-bottom {
+    @include padding(0px, 0px, 15px, 0px);
+}
+.pad-twenty-bottom {
+    @include padding(0px, 0px, 20px, 0px);
+}
+.pad-twentyfive-bottom {
+    @include padding(0px, 0px, 25px, 0px);
+}
+.pad-thirty-bottom {
+    @include padding(0px, 0px, 30px, 0px);
+}
+
+// --------------------------------------------------------------------------------
+
+// Custom styles according to project
+
+// --- PRE-HEADER 
+
+.preheader{
+    font-size: 12px;
+    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    background: #2b3034;
+    .font_grey{
+        color: #999999;
+        text-decoration: underline;
+    }
+}
+
+// --- HEADER
+
+.emailHeading{
+    width: 438px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Arial Black","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+    text-align: center;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+// --- MAIN CONTENT
+
+.mainContent{
+
+    .box{
+        background: white;
+    }
+
+    .leftAlign{
+        text-transform: none !important;
+        text-align: left !important;
+    }
+
+    .rightAlign{
+        text-transform: none !important;
+        text-align: right !important;
+    }
+
+    .infoSection{
+        height: 157px;
+        overflow: hidden !important;
+    }
+
+    .secondPara{
+        font-size: 12px;
+        line-height: 18px;
+        font-family: 'Arial';
+        padding: 0 0px;
+    }
+
+    .bigRedBtn{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 34px;
+        padding-right: 34px;
+        border: 1px solid #ee2d23;
+        width: 200px;
+        display: inline-block;
+    }
+
+    .footerLink{
+        color: #ee2d23 !important;
+    }
+
+}
+
+// --- MAIN CONTENT
+
+.smallPaddingZero{
+    padding: 0 !important;
+}
+
+
+// ---- RHS Timing info
+
+.RHS_INFO{
+    width: 114px !important;
+}

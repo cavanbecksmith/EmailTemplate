@@ -1,0 +1,73 @@
+@mixin border-radius($radius) {
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-top-left-radius($radius) {
+	-moz-border-top-left-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-top-right-radius($radius) {
+	-moz-border-top-right-radius: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin margin($top, $right, $bottom, $left) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $bottom;
+    margin-left: $left;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+}
+
+@mixin border-bottom-left-radius($radius) {
+	-moz-border-bottom-left-radius: $radius;
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin border-bottom-right-radius($radius) {
+	-moz-border-bottom-right-radius: $radius;
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	background-clip: padding-box;
+}
+
+@mixin position-absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
+	position: absolute;
+	top: $top; left: $left;
+	bottom: $bottom; right: $right;
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-moz-transition: $transition-property $transition-time $method;
+	-webkit-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+@mixin box-shadow($horizontal: 0, $vertical: 1px, $blur: 2px, $spread: 0, $color: $color-dark-grey) {
+	-moz-box-shadow: $horizontal $vertical $blur $spread $color;
+	-webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+	box-shadow: $horizontal $vertical $blur $spread $color;
+}
+
+@mixin inset-box-shadow($horizontal: 0, $vertical: 1px, $blur: 2px, $color: $color-dark-grey) {
+	-moz-box-shadow: inset $horizontal $vertical $blur $color;
+	-webkit-box-shadow: inset $horizontal $vertical $blur $color;
+	box-shadow: inset $horizontal $vertical $blur $color;
+}
+

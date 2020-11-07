@@ -1,0 +1,221 @@
+/* =====// Large device width \\===== */
+
+@media only screen and (max-width: 840px) {
+ 
+// --------------------------------------------------------------------------------------------
+ 	
+ 	.full_width {
+ 		width: 100% !important;
+ 		max-width: 100% !important;
+ 	}
+
+// --------------------------------------------------------------------------------
+
+	// --- PRE-HEADER 
+
+	.preheader{
+	    font-size: 12px;
+	    font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	    background: #2b3034;
+	    .font_grey{
+	        color: #999999;
+	        text-decoration: underline;
+	    }
+	}
+
+	// --- HEADER
+
+	.emailHeading{
+	    width: 438px;
+	    font-size: 60px;
+	    font-weight: bold;
+	    font-family: "Arial Black","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	    text-align: center;
+	    color: #ffffff;
+	    line-height: 60px;
+	}
+
+	// --- MAIN CONTENT
+	
+	.mainContent{
+	    padding: 0 30px !important;
+	    .box{
+	        // padding: 59px 20px !important;
+	        background: white;
+	    }
+	    // .smallBlock{
+	    // 	display: block !important;
+	    // 	width: 100% !important;
+	    // }
+	    .autoHeight{
+	    	height: auto !important;
+	    }
+	}
+
+
+    // --- Specific page sections
+
+    .infoSection{
+    	padding-left: 0 !important;
+    	padding-right: 23px !important;
+    	padding-left: 23px !important;
+    	box-sizing: border-box;
+    	max-height: 100% !important;
+    }
+
+
+}
+
+/* =====// Small device width \\===== */
+
+
+@media only screen and (max-width: 610px) {
+
+	// .mainContent{
+
+		// --- Layout things
+
+		// BLOCK
+	    .smallBlock{
+	    	display: block !important;
+	    	width: 100% !important;
+	    }
+
+	    .fiftySM{
+	    	width: 50% !important;
+	    	display: inline-block !important;
+	    	.left{text-align: left !important;}
+	    	.right{text-align: right !important;}
+	    }
+
+	    // HEADING
+	    .smallH5{
+	    	display: block;
+	    	height: 5px !important;
+	    }
+
+	    // PADDING
+	    .smallPaddingZero{
+	    	padding: 0 !important;
+	    }
+
+	    .noPaddingBottom{
+	    	padding-bottom: 0 !important;
+	    }
+
+	    .paddingLeftSM{
+	    	padding-left: 20px;
+	    	box-sizing: border-box !important;
+	    }
+
+
+	    // ALIGN
+	    .leftAlignSm{
+	    	text-align: left !important;
+	    }
+
+	    .centerAlignSm{
+	    	text-align: center !important;
+	    }
+
+	    // BLOCK
+	    .blockSM{
+	    	width: 100% !important; 
+	    	display: block !important;
+        }
+        
+        .tableSM{
+	    	width: 100% !important; 
+	    	display: table !important;
+        }
+
+	    .inlineBlockSM{
+	    	width: 100% !important; 
+	    	display: inline-block !important;
+	    }
+
+	    .blockSM70{
+	    	width: 70% !important; 
+	    	display: inline-block !important;
+	    }
+
+	    .noBlock100{
+	    	width: 100% !important;
+	    }
+
+	    // SPACER
+	    .spacerSM{
+	    	display: block !important;
+	    	height: 10px !important;
+	    }
+
+	    .spacerLgSM{
+	    	display: block !important;
+	    	height: 20px !important;
+	    }
+
+
+	    .spacerXlLgSM{
+	    	display: block !important;
+	    	height: 30px !important;
+	    }
+
+	    .HiddenSpacer{
+	    	height: 10px !important;
+	    	display: block !important; 	
+	    }
+
+	    // HIDE
+	    .hideSM{
+	    	display: none !important;
+	    }
+
+	    // CIRC
+	    .hiddenCIRC{
+	    	display: inline-block !important;
+	    }
+
+
+	    // --- Specific page sections
+
+	    .infoSection{
+	    	padding-left: 0 !important;
+	    	padding-right: 23px !important;
+	    	padding-left: 23px !important;
+	    	box-sizing: border-box;
+	    	height: auto !important;
+	    	max-height: auto !important;
+	    }
+
+	    // --- IMG FORMATTING
+
+	    img.fullIMG{
+			width: 100% !important;
+			height: 100% !important;
+			display: block !important;
+	    }
+
+
+	    // --- DATE AND TIMETABLE
+	    .DATE_AND_TIMETBL{
+	    	.padding{
+	    		width: 23px !important;
+	    	}
+		}
+
+
+		.mobilePadding{
+			padding-left: 20px;
+			padding-right: 20px;
+			box-sizing: border-box;
+		}
+
+	// }
+
+	.left{
+		text-align: left !important;
+	}
+
+}
+
+// --------------------------------------------------------------------------------------------

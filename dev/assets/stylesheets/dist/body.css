@@ -1,0 +1,220 @@
+#outlook a {
+  padding: 0; }
+
+row {
+  height: 0px; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0; }
+
+.ExternalClass {
+  width: 100%; }
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%; }
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  display: block; }
+
+a img {
+  border: none; }
+
+table td {
+  border-collapse: collapse; }
+
+.background_one {
+  background: #e3e1e8; }
+
+.table-body {
+  background: #f4f4f4;
+  padding: 20px 0px; }
+  .table-body .page {
+    width: 100%;
+    max-width: 1024px;
+    background: #ffffff; }
+  .table-body .page-padding {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; }
+  .table-body .one-column .col {
+    padding: 20px;
+    color: #ffffff; }
+  .table-body .two-column {
+    width: 100%; }
+    .table-body .two-column .w280 {
+      width: 100%;
+      max-width: 280px; }
+      .table-body .two-column .w280 .col {
+        padding: 20px; }
+  .table-body .three-column {
+    width: 100%; }
+    .table-body .three-column .w187 {
+      width: 100%;
+      max-width: 187px; }
+      .table-body .three-column .w187 .col {
+        padding: 20px; }
+    .table-body .three-column .w186 {
+      width: 100%;
+      max-width: 186px; }
+      .table-body .three-column .w186 .col {
+        padding: 20px; }
+
+.headline {
+  font-family: Arial, Georgia, serif;
+  font-size: 30px;
+  line-height: 33px;
+  color: #1a1a1a; }
+
+.subheading {
+  font-family: Arial, Georgia, serif;
+  font-size: 22px;
+  line-height: 23px;
+  color: #1a1a1a; }
+
+.body-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1a1a1a; }
+
+.disclaimer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  color: #1a1a1a; }
+
+.tcenter {
+  text-align: center; }
+
+.tleft {
+  text-align: left; }
+
+.pad-ten-top {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.pad-fifteen-top {
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.pad-twenty-top {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.pad-twentyfive-top {
+  padding-top: 25px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.pad-thirty-top {
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+
+.pad-ten-bottom {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px; }
+
+.pad-fifteen-bottom {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 0px; }
+
+.pad-twenty-bottom {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px; }
+
+.pad-twentyfive-bottom {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  padding-left: 0px; }
+
+.pad-thirty-bottom {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-left: 0px; }
+
+.preheader {
+  font-size: 12px;
+  font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+  background: #2b3034; }
+  .preheader .font_grey {
+    color: #999999;
+    text-decoration: underline; }
+
+.emailHeading {
+  width: 438px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Arial Black","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+  text-align: center;
+  color: #ffffff;
+  line-height: 60px; }
+
+.mainContent .box {
+  background: white; }
+
+.mainContent .leftAlign {
+  text-transform: none !important;
+  text-align: left !important; }
+
+.mainContent .rightAlign {
+  text-transform: none !important;
+  text-align: right !important; }
+
+.mainContent .infoSection {
+  height: 157px;
+  overflow: hidden !important; }
+
+.mainContent .secondPara {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Arial';
+  padding: 0 0px; }
+
+.mainContent .bigRedBtn {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 34px;
+  padding-right: 34px;
+  border: 1px solid #ee2d23;
+  width: 200px;
+  display: inline-block; }
+
+.mainContent .footerLink {
+  color: #ee2d23 !important; }
+
+.smallPaddingZero {
+  padding: 0 !important; }
+
+.RHS_INFO {
+  width: 114px !important; }
